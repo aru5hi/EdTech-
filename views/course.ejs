@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student courses</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<h4>These are your courses:</h4>
+<ul>
+CLASS  :  ROOM ,  CLASS ID 
+<% var i; for(i= 0; i< c.length ; i++ ){%>
+<li><%=c[i].name%> : <%=c[i].room%> , <%=c[i].id %> </li>
+<% } %>
+</ul>
+
+
+
+<form method="post" action="getwork">
+	enter course id to view coursework: <input type="text" name="in">
+	<button>FIND</button>
+</form>
+</body>
+</html>

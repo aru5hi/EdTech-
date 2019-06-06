@@ -1,0 +1,19 @@
+1. Download the files into a desired folder on the Desktop (eg. porject).
+2. Download Node JS from its official website. Run the .msi file(windows)
+3. Open command prompt. Type the following command
+	(i)  node -v (this will show the version and will verify that node was installed successfully)
+	(ii)  npm install npm --global
+4. Now in the same command prompt:
+   (i) cd Desktop
+   (ii) cd project
+   (iii) npm install fs --save
+   (iv) npm install readline --save
+   (v) npm install googleapis@39 --save
+   (vi) npm install express --save
+   (vii) npm install ejs --save
+5. Open google classroom and create your own classroom using your gmail id. Create one or more classes.
+6. Now in command prompt type: node index.js
+	and then go to the link that appears in the command prompt, login with the same account you created your classes with, and copy the passcode that will appear.
+ 	Once you copy paste the code, you will see the link at which the server is running. 
+ 	Copy paste the link in browser and you will be able to see the details of your created classsroom.
+
